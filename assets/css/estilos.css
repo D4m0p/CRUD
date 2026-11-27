@@ -1,0 +1,46 @@
+/*
+ * Estilos propios del CRUD de productos.
+ * Solo complementan a Bootstrap 5.3 con pequeños ajustes visuales.
+ */
+
+/* Fondo suave para que las tarjetas resalten */
+body {
+    background-color: #f3f5f9;
+    min-height: 100vh;
+}
+
+/* Tarjetas con bordes redondeados */
+.card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.card-header {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Botón principal: transición suave al cambiar entre Guardar y Modificar */
+#btnPrincipal {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Encabezados de la tabla más discretos */
+.table thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #6c757d;
+    white-space: nowrap;
+}
+
+/* Descripción abreviada debajo del nombre en la tabla */
+.descripcion-corta {
+    max-width: 16rem;
+}
+
+/* Lista de errores dentro de SweetAlert2 */
+.swal2-html-container ul {
+    padding-left: 1.2rem;
+}
